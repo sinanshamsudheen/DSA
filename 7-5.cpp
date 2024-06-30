@@ -1,3 +1,5 @@
+// moves all x to the end 
+
 #include<iostream>
 using namespace std;
 string moveAllX(string s){
