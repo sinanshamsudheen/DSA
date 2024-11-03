@@ -1,13 +1,15 @@
 // This program finds the first repeating element in an array by using an 
 // auxiliary array idx to keep track of the first occurrence index of each element.
-#include "bits/stdc++.h"
+#include<iostream>
+// #include<cmath>
+// #include<algorithm>
 using namespace std;
 int main()
 {
     int n;
     cin>>n;
 
-    int a[n];
+    int a[100];
     for(int i=0;i<n;i++){
         cin>>a[i];
     }
